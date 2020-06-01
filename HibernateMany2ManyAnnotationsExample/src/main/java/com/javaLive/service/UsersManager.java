@@ -12,7 +12,7 @@ import com.javaLive.entity.User;
 /**
  * A program that demonstrates using JPA annotations to map
  * a bidirectional many-to-many association in Hibernate framework.
- * @author www.codejava.net
+ * @author www.JavaLive.com
  *
  */
 public class UsersManager {
@@ -35,8 +35,8 @@ public class UsersManager {
 		Group groupAdmin = new Group("Administrator Group");
 		Group groupGuest = new Group("Guest Group");
 		
-		User user1 = new User("Tom", "tomcat", "tom@codejava.net");
-		User user2 = new User("Mary", "mary", "mary@codejava.net");
+		User user1 = new User("Tom", "tomcat", "tom@JavaLive.com");
+		User user2 = new User("Mary", "mary", "mary@JavaLive.com");
 		
 		groupAdmin.addUser(user1);
 		groupAdmin.addUser(user2);
